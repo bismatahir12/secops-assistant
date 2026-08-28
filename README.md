@@ -6,8 +6,6 @@ real tool-calling (threat-intel lookup, log parsing), answers questions over
 uploaded security docs via RAG, and produces reports, backed by a real
 dashboard.
 
-**Build status:** Increment 1 of 3 — core loop (auth + systems, no AI yet).
-See `/areas` roadmap below.
 
 ## Stack (this increment)
 
