@@ -7,18 +7,17 @@ uploaded security docs via RAG, and produces reports, backed by a real
 dashboard.
 
 
-## Stack (this increment)
+## Stack
 
 - FastAPI (async) + SQLAlchemy 2.0 (async) + PostgreSQL
 - JWT auth (OAuth2 password flow)
 - Docker Compose
-- pytest (async, SQLite in-memory for test isolation — no DB needed to test)
+- pytest 
 
 ## Run it
 
 ```bash
 cp backend/.env.example backend/.env
-# then edit backend/.env and set a real JWT_SECRET_KEY:
 python -c "import secrets; print(secrets.token_hex(32))"
 
 docker compose up --build
