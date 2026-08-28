@@ -53,15 +53,6 @@ backend/
   tests/         # pytest, in-memory SQLite fixtures
 docker-compose.yml
 ```
-
-## Roadmap (not built yet — see project plan)
-
-1. ~~Core loop: FastAPI + Postgres + JWT auth + Docker~~ ← you are here
-2. Seed script with fake alert data + React dashboard
-3. LLM agent with tool-calling (parse_logs, threat_intel_lookup) + RAG over
-   uploaded docs + report generation
-4. Webhooks, GitHub Actions CI, deploy to Render/Railway
-
 ## Notes on scope
 
 "Connecting a system" registers a source record — it does not perform a live
