@@ -27,7 +27,7 @@ API will be live at http://localhost:8000, interactive docs at
 http://localhost:8000/docs. Try it there: `POST /auth/signup`, then use the
 "Authorize" button with your credentials, then `POST /systems`.
 
-## Run tests locally (no Docker needed — uses in-memory SQLite)
+## Run tests locally 
 
 ```bash
 cd backend
